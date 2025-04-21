@@ -1,0 +1,30 @@
+# GRUB D4LM Linux(mostly Fedora) theme
+# Designed for 2256x1504 but now for 1600x900
+# By Heinrich zur Horst-Meyer which was forked by D4LM
+
+# Global Property
+title-text: "D4LM's Laptop"
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-font: "Ubuntu Mono Regular 14"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Show the boot menu
++ boot_menu {
+  left = 62%
+  top = 50%-80
+  width = 40%
+  height = 50%+80
+  item_font = "Red Hat Display Regular 14"
+  item_color = "#9400D3"
+  selected_item_color = "#87CEEB"
+  item_height = 40
+  item_padding = 5
+  item_spacing = 10
+  item_align = left
+}
